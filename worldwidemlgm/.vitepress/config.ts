@@ -77,6 +77,5 @@ export default defineConfig({
       "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-E6QJ23ERKV');",
     ],
   ],
-  ],
   lastUpdated: true,
 });
