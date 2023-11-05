@@ -63,7 +63,20 @@ export default defineConfig({
       {
         src: "https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/js/all.js"
       }
-    ]
+    ],
+    [
+      'script',
+      {
+        async: true,
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-E6QJ23ERKV',
+      },
+    ],
+    [
+      'script',
+      {},
+      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-E6QJ23ERKV');",
+    ],
+  ],
   ],
   lastUpdated: true,
 });
